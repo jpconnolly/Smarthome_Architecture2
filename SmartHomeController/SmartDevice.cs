@@ -49,7 +49,7 @@ namespace SmartHomeController
 
         }
 
-        public void GetStatus()
+        public virtual void GetStatus()
         {
 
         }
