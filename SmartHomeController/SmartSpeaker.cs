@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace SmartHomeController
@@ -53,8 +54,12 @@ namespace SmartHomeController
 
         public void SetVolume()
         {
-
+            
         }
 
+        public override void GetStatus()
+        {
+
+        }
     }
 }
